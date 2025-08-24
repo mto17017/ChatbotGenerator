@@ -1,0 +1,60 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Node.js modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+*.txt # Be careful with this if you have important .txt files you want to track
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Operating System files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Package lock files (optional, but often ignored if you use npm install --save-exact)
+package-lock.json
+
+# Chatbot specific generated files (if you don't want to track them)
+chatbot_*/
+!chatbot_sample/
+!chatbot_sample/chatbot-backend/
+!chatbot_sample/chatbot-frontend/
+!chatbot_sample/chatbot-backend/main.py
+!chatbot_sample/chatbot-backend/requirements.txt
+!chatbot_sample/chatbot-frontend/package.json
+!chatbot_sample/chatbot-frontend/next.config.ts
+!chatbot_sample/chatbot-frontend/tsconfig.json
+!chatbot_sample/chatbot-frontend/app/
+!chatbot_sample/chatbot-frontend/public/
+!chatbot_sample/chatbot-frontend/eslint.config.mjs
+!chatbot_sample/chatbot-frontend/postcss.config.mjs
+!chatbot_sample/chatbot-frontend/next-env.d.ts
+!chatbot_sample/chatbot-frontend/README.md
+!chatbot_sample/chatbot-frontend/.gitignore
+!chatbot_sample/chatbot-frontend/package-lock.json
+!chatbot_sample/chatbot-frontend/node_modules/
+!chatbot_sample/chatbot-frontend/.git/
+!chatbot_sample/chatbot-backend/.env
+!chatbot_sample/chatbot-backend/data.csv
+!chatbot_sample/chatbot-backend/main.py
+!chatbot_sample/chatbot-backend/requirements.txt
+!chatbot_sample/chatbot-backend/venv/
+!chatbot_sample/chatbot_error.txt
+!chatbot_sample/chatbot_log.txt
